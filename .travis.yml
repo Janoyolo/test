@@ -2,6 +2,8 @@ language: php
 php:
   - 5.4
   - 5.5
+env:
+  - PACKAGE_VERSION="1.0.*"
   
 install:
   - composer install --verbose
