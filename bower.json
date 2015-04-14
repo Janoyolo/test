@@ -1,0 +1,21 @@
+{
+  "name": "solocal-dashboard",
+  "authors": [
+    "jpoupee <jpoupee@simalir.com>"
+  ],
+  "description": "Projet test",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "src"
+  ],
+  "dependencies": {
+    "react": "*",
+    "jquery": "*",
+    "velocity":"*"
+  }
+}
