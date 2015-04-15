@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="./phpunit/bootstrap.php" colors="true">
+    <!-- Les fichiers de tests à lancer -->
+    <testsuites>
+        <testsuite name="test suite">
+            <directory suffix="Test.php">./phpunit</directory>
+        </testsuite>
+    </testsuites>
+    <!-- Quels fichiers sont concernés par l'évaluation du code coverage -->
+    <filter>
+        <whitelist>
+            <directory>./</directory>
+            <exclude>
+                <directory>./src</directory>
+                <directory>./examples</directory>
+                <directory>./phpunit</directory>
+            </exclude>
+        </whitelist>
+    </filter>
+</phpunit>
