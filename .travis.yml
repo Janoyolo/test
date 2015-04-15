@@ -5,7 +5,8 @@ php:
 env:
   - PACKAGE_VERSION="1.0.*"
   
-install:
+before_script:
+  - npm install -g bower
   - bower install
   
 notifications:
